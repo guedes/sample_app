@@ -9,9 +9,14 @@ gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '2.0.0.beta.18'
+  
+  # to auto execute tests
   gem 'autotest'
   gem 'autotest-rails'
   gem 'autotest-notification'
+
+  # to show how ouer models is playing...
+  gem 'annotate-models', '1.0.4'
 end
 
 group :test do
