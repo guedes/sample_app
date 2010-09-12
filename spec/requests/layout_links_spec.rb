@@ -23,6 +23,6 @@ describe "LayoutLinks" do
   
   it "should have a signup page at '/signup'" do
     get '/signup' 
-    response.should have_selector('title', :content => "RoR Tutor Sample App | Sign up")
+    response.should have_selector('title', :content => "RoR Tutor Sample App | Sign Up")
   end
 end
